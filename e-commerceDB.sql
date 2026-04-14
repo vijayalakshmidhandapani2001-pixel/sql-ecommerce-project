@@ -151,7 +151,7 @@ FOREIGN KEY (order_id) REFERENCES orders(order_id);
 INSERT INTO payments VALUES
 (1, 1, 50000, 'UPI'),
 (2, 2, 44000, 'Card'),
-(3, 3, 50000, 'UPI');*/
+(3, 3, 50000, 'UPI');
 
 --show payments table
 SELECT * FROM payments;
